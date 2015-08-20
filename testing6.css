@@ -1,4 +1,4 @@
-/*.container {
+.container {
   max-width: 928px;
 }
 
@@ -17,7 +17,7 @@ a {
   font-weight: 200;
 }
 
-.main {
+/*.main {
   height: 550px;
   padding-top: 55px;
 }
