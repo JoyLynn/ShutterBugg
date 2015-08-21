@@ -18,17 +18,30 @@ a {
 }
 
 .main {
+  background-image: url("http://www.bluetapp.com/ireland/web/DSC00503LARGE.JPG");
+  background-size: cover;
   height: 550px;
   padding-top: 55px;
 }
 
+.main h1 {
+  color: black;
+}
+
 .main p {
+  color: black;
   font-size: 26px;
   font-weight: 200;  
   margin-bottom: 40px;
 }
 
+.main button {
+  background-color: red;
+  color: white;
+}
+
 .section .row {
+  float: left;
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #dbdbdb;
@@ -42,16 +55,15 @@ a {
 
 .footer {
   border-top: 1px solid #dbdbdb;
-  background-color: #f3f3f3;
+  background-color: #5a5a5a;
+  height: 150px;
+  list-style-type: none;
+  padding-left: 0;
+  display: inline;
   padding: 20px 0px 80px;
 }
 
-.footer ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.footer li {
+.footer h3 { 
   color: #999;
   font-weight: 600;
 }
