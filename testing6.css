@@ -47,6 +47,12 @@ a {
   border-bottom: 1px solid #dbdbdb;
 }
 
+.section .col {
+  float: left;
+  width: 30%;
+  padding: 40px;
+}
+
 .store {
   text-align: center;
   border-bottom: 0px;
@@ -55,7 +61,6 @@ a {
 
 .footer {
   border-top: 1px solid #dbdbdb;
-  background-color: #5a5a5a;
   height: 150px;
   list-style-type: none;
   padding-left: 0;
